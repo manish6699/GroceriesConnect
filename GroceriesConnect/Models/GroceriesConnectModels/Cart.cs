@@ -13,14 +13,9 @@ namespace GroceriesConnect.Models.GroceriesConnectModels
         public int Id { get; set; }
 
         [MaxLength(128)]
-        [ForeignKey("Customers")]
+        [ForeignKey("Customer")]
         public string CustomerId { get; set; }
-        public ApplicationUser Customers { get; set; }
-
-        [MaxLength(128)]
-        [ForeignKey("Vendors")]
-        public string VendorId { get; set; }
-        public ApplicationUser Vendors { get; set; }
+        public ApplicationUser Customer { get; set; }
 
         public int TotalPrice { get; set; }
 
