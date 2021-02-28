@@ -28,6 +28,8 @@ namespace GroceriesConnect.Models
 
         public DbSet<Category> Categories { get; set; }
 
+        public DbSet<Catalog> Catalogs { get; set; }
+
         public static ApplicationDbContext Create()
         {
             return new ApplicationDbContext();

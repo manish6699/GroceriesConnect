@@ -181,8 +181,13 @@
     <Compile Include="Migrations\202102280635489_CreateTableCategories.Designer.cs">
       <DependentUpon>202102280635489_CreateTableCategories.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202102281335142_CreateTableCatalogs.cs" />
+    <Compile Include="Migrations\202102281335142_CreateTableCatalogs.Designer.cs">
+      <DependentUpon>202102281335142_CreateTableCatalogs.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\GroceriesConnectModels\Catalog.cs" />
     <Compile Include="Models\GroceriesConnectModels\Category.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
@@ -268,6 +273,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202102280635489_CreateTableCategories.resx">
       <DependentUpon>202102280635489_CreateTableCategories.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202102281335142_CreateTableCatalogs.resx">
+      <DependentUpon>202102281335142_CreateTableCatalogs.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
