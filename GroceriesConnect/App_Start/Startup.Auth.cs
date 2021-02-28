@@ -54,15 +54,15 @@ namespace GroceriesConnect
             //   consumerKey: "",
             //   consumerSecret: "");
 
-            //app.UseFacebookAuthentication(
-            //   appId: "",
-            //   appSecret: "");
+            app.UseFacebookAuthentication(
+               appId: "140482414603195",
+               appSecret: "8666fdc6b584dad0acdca94da2611372");
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+                ClientId = "1061712924601-u0t703uomsano69dhlsl82unpkjtmi3l.apps.googleusercontent.com",
+                ClientSecret = "wq9_tGsrD-iz15C9vVFQoXg_"
+            });
         }
     }
 }
