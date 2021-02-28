@@ -14,13 +14,13 @@ namespace GroceriesConnect.Models.GroceriesConnectModels
 
         [ForeignKey("Category")]
         public int CategoryId { get; set; }
-
         public Category Category { get; set; }
 
         [ForeignKey("User")]
         [MaxLength(128)]
         public string UserId { get; set; }
+        public ApplicationUser User { get; set; }
 
-        public ApplicationUser User { get; set; } 
+        public List<Item> Items { get; set; }
     }
 }
