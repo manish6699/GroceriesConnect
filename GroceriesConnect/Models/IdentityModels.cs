@@ -37,6 +37,8 @@ namespace GroceriesConnect.Models
 
         public DbSet<Cart> Carts { get; set; }
 
+        public DbSet<ItemDetail> ItemDetails { get; set; }
+
         public static ApplicationDbContext Create()
         {
             return new ApplicationDbContext();

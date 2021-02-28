@@ -23,5 +23,7 @@ namespace GroceriesConnect.Models.GroceriesConnectModels
 
         [Required(ErrorMessage = "Please enter item price")]
         public int Price { get; set; }
+
+        public List<ItemDetail> ItemDetails { get; set; }
     }
 }

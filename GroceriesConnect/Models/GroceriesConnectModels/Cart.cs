@@ -23,5 +23,7 @@ namespace GroceriesConnect.Models.GroceriesConnectModels
         public ApplicationUser Vendors { get; set; }
 
         public int TotalPrice { get; set; }
+
+        public List<ItemDetail> ItemDetails { get; set; }
     }
 }

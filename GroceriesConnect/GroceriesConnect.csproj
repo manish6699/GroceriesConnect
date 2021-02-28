@@ -197,12 +197,17 @@
     <Compile Include="Migrations\202102281845293_AddOneToManyRelationInCatalogsAndCategoriesTables.Designer.cs">
       <DependentUpon>202102281845293_AddOneToManyRelationInCatalogsAndCategoriesTables.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202102281910557_CreateTableItemDetails.cs" />
+    <Compile Include="Migrations\202102281910557_CreateTableItemDetails.Designer.cs">
+      <DependentUpon>202102281910557_CreateTableItemDetails.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\GroceriesConnectModels\Cart.cs" />
     <Compile Include="Models\GroceriesConnectModels\Catalog.cs" />
     <Compile Include="Models\GroceriesConnectModels\Category.cs" />
     <Compile Include="Models\GroceriesConnectModels\Item.cs" />
+    <Compile Include="Models\GroceriesConnectModels\ItemDetail.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -299,6 +304,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202102281845293_AddOneToManyRelationInCatalogsAndCategoriesTables.resx">
       <DependentUpon>202102281845293_AddOneToManyRelationInCatalogsAndCategoriesTables.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202102281910557_CreateTableItemDetails.resx">
+      <DependentUpon>202102281910557_CreateTableItemDetails.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
