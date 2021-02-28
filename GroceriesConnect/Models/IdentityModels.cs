@@ -43,6 +43,8 @@ namespace GroceriesConnect.Models
 
         public DbSet<PickupOption> PickupOptions { get; set; }
 
+        public DbSet<PaymentOption> paymentOptions  { get; set; }
+
         public static ApplicationDbContext Create()
         {
             return new ApplicationDbContext();
