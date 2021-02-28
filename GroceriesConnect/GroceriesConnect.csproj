@@ -177,6 +177,10 @@
     <Compile Include="Migrations\202102280612291_InitialSetupWithIdentityFrameworkAuth.Designer.cs">
       <DependentUpon>202102280612291_InitialSetupWithIdentityFrameworkAuth.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202102280635489_CreateTableCategories.cs" />
+    <Compile Include="Migrations\202102280635489_CreateTableCategories.Designer.cs">
+      <DependentUpon>202102280635489_CreateTableCategories.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\GroceriesConnectModels\Category.cs" />
@@ -261,6 +265,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202102280612291_InitialSetupWithIdentityFrameworkAuth.resx">
       <DependentUpon>202102280612291_InitialSetupWithIdentityFrameworkAuth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202102280635489_CreateTableCategories.resx">
+      <DependentUpon>202102280635489_CreateTableCategories.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
