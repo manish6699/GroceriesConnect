@@ -41,6 +41,8 @@ namespace GroceriesConnect.Models
 
         public DbSet<ItemDetail> ItemDetails { get; set; }
 
+        public DbSet<PickupOption> PickupOptions { get; set; }
+
         public static ApplicationDbContext Create()
         {
             return new ApplicationDbContext();
