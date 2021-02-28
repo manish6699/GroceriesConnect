@@ -14,5 +14,7 @@ namespace GroceriesConnect.Models.GroceriesConnectModels
         [MaxLength(128)]
         [Required]
         public string PaymentMode { get; set; }
+
+        public List<Order> Orders { get; set; }
     }
 }

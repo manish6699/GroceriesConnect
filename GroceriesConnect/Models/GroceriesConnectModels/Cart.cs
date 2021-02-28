@@ -20,5 +20,7 @@ namespace GroceriesConnect.Models.GroceriesConnectModels
         public int TotalPrice { get; set; }
 
         public List<ItemDetail> ItemDetails { get; set; }
+
+        public List<Order> Orders { get; set; }
     }
 }
