@@ -16,6 +16,6 @@ namespace GroceriesConnect.Models.GroceriesConnectModels
         [MaxLength(128)]
         public string CategoryName { get; set; }
 
-        public List<Category> Categories { get; set; }
+        public List<Catalog> Catalogs { get; set; }
     }
 }
