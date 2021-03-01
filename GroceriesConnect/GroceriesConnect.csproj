@@ -221,6 +221,10 @@
     <Compile Include="Migrations\202102282005298_CreateTableOrders.Designer.cs">
       <DependentUpon>202102282005298_CreateTableOrders.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202103010512173_AlterTableItemsAddColumnStocksAvailable.cs" />
+    <Compile Include="Migrations\202103010512173_AlterTableItemsAddColumnStocksAvailable.Designer.cs">
+      <DependentUpon>202103010512173_AlterTableItemsAddColumnStocksAvailable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\GroceriesConnectModels\Cart.cs" />
@@ -345,6 +349,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202102282005298_CreateTableOrders.resx">
       <DependentUpon>202102282005298_CreateTableOrders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103010512173_AlterTableItemsAddColumnStocksAvailable.resx">
+      <DependentUpon>202103010512173_AlterTableItemsAddColumnStocksAvailable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

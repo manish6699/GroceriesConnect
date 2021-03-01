@@ -24,6 +24,10 @@ namespace GroceriesConnect.Models.GroceriesConnectModels
         [Required(ErrorMessage = "Please enter item price")]
         public int Price { get; set; }
 
+        [Required(ErrorMessage = "Please enter available stocks")]
+        [Display(Name = "Stocks Available")]
+        public int StocksAvailable { get; set; }
+
         public List<ItemDetail> ItemDetails { get; set; }
     }
 }
