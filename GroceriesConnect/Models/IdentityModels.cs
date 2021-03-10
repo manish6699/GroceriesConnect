@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Data.Entity;
 using System.Security.Claims;
 using System.Threading.Tasks;
@@ -16,6 +17,8 @@ namespace GroceriesConnect.Models
         public List<Cart> Carts { get; set; }
 
         public List<Order> Orders { get; set; }
+       
+        public List<Location> Locations { get; set; }
 
         public async Task<ClaimsIdentity> GenerateUserIdentityAsync(UserManager<ApplicationUser> manager)
         {
@@ -48,6 +51,8 @@ namespace GroceriesConnect.Models
         public DbSet<PaymentOption> paymentOptions  { get; set; }
 
         public DbSet<Order> Orders { get; set; }
+
+        public DbSet<Location> Locations { get; set; }
 
         public static ApplicationDbContext Create()
         {

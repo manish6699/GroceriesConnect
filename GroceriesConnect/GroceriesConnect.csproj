@@ -225,6 +225,10 @@
     <Compile Include="Migrations\202103010512173_AlterTableItemsAddColumnStocksAvailable.Designer.cs">
       <DependentUpon>202103010512173_AlterTableItemsAddColumnStocksAvailable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202103100543305_CreateTableLocation.cs" />
+    <Compile Include="Migrations\202103100543305_CreateTableLocation.Designer.cs">
+      <DependentUpon>202103100543305_CreateTableLocation.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\GroceriesConnectModels\Cart.cs" />
@@ -232,6 +236,7 @@
     <Compile Include="Models\GroceriesConnectModels\Category.cs" />
     <Compile Include="Models\GroceriesConnectModels\Item.cs" />
     <Compile Include="Models\GroceriesConnectModels\ItemDetail.cs" />
+    <Compile Include="Models\GroceriesConnectModels\Location.cs" />
     <Compile Include="Models\GroceriesConnectModels\Order.cs" />
     <Compile Include="Models\GroceriesConnectModels\PaymentOption.cs" />
     <Compile Include="Models\GroceriesConnectModels\PickupOption.cs" />
@@ -352,6 +357,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202103010512173_AlterTableItemsAddColumnStocksAvailable.resx">
       <DependentUpon>202103010512173_AlterTableItemsAddColumnStocksAvailable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103100543305_CreateTableLocation.resx">
+      <DependentUpon>202103100543305_CreateTableLocation.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
